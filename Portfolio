@@ -1,8 +1,4 @@
-
- A portfolio website made up of HTML, CSS telling about you and your accomplishments.
-code is:-
-
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -38,15 +34,14 @@ code is:-
         }
 
         .project {
-            background-color:yellow;
+            background-color: #2dd6e5; /* Changed background color to gold */
             padding: 1em;
             margin-bottom: 1em;
             border-radius: 5px;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
         }
-
         .footer {
-            background-color: #333;
+            background-color: green; /* Changed footer background color to green */
             color: white;
             text-align: center;
             padding: 1em;
@@ -56,7 +51,7 @@ code is:-
 <body>
     <header>
         <h1>SJ SARANYA</h1>
-        <p>Web Developer | Python Developer</p>
+        <p>FRESHER</p>
     </header>
     <div class="container">
         <h2>About Me</h2>
@@ -66,29 +61,78 @@ code is:-
         <div class="project">
             <h3>Portfolio Website</h3>
             <p>Designed and developed a portfolio website to showcase my skills and projects using HTML and CSS.</p>
-            </p>
         </div>
         <div class="project">
             <h3>Homepage of Netflix</h3>
-            <p>A simple website having similar homepage
-             that of Netflix using using HTML and
-             CSS.</p>
+            <p>A simple website having similar homepage that of Netflix using using HTML and CSS.</p>
         </div>
-         <div class="project">
+        <div class="project">
             <h3>Temperature Converter</h3>
-            <p>Creating a simple website using CSS, HTML,
-               JAVASCRIPT to convert temperature form
-               Celsius to Fahrenheit and etc.</p>
+            <p>Creating a simple website using CSS, HTML, JAVASCRIPT to convert temperature from Celsius to Fahrenheit and etc.</p>
         </div>
 
+        <h2>Skills</h2>
+        <ul>
+            <li>Python</li>
+            <li>MYSQL</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Basics of Artificial Intelligence</li>
+            <li>Basics of FullStack Development</li>
+            <li>Object-Oriented Programming System</li>
+        </ul>
+
+        <h2>Education</h2>
+        <p>B.Tech - CSE (AI & ML)<br>
+        Sri Venkateswara College of Engineering, Tirupati<br>
+        2021-2025<br>
+        80.27 Percentage - till 5th Semester</p>
+        <p>Intermediate Education - MPC<br>
+        Mother Theresa Institute of Engineering, Palamaner<br>
+        2019-2021<br>
+        68.9 Percentage</p>
+
+        <h2>Certifications</h2>
+        <ul>
+            <li>Python (Basics) From HackerRank.</li>
+            <li>Introduction to MYSQL certified by IBM.</li>
+            <li>CSS From HackerRank.</li>
+        </ul>
+
+        <h2>Internships</h2>
+        <p>Python Programming Internship from Vaultofcodes.</p>
+
+        <h2>Projects Accomplished</h2>
+        <ul>
+            <li><strong>To-Do List Application (Python):</strong> Developed a Python application using the datetime library to create a functional to-do list with features like adding, removing, and marking tasks complete.</li>
+            <li><strong>Temperature Converter (Python):</strong> Built a Python program that converts temperatures between Celsius and Fahrenheit, demonstrating the utilization of user input and basic calculations.</li>
+            <li><strong>Presentation: Functions & Modules in Python:</strong> Created a presentation explaining the concepts of functions and modules in Python, including their importance for code organization and reusability.</li>
+            <li><strong>Portfolio Website (HTML):</strong> Constructed a personal portfolio website showcasing my skills and projects using HTML.</li>
+            <li><strong>Text-to-Speech Conversion (gTTS):</strong> Successfully converted text to speech using the gTTS API. This demonstrates your exploration of external libraries and APIs, expanding your programming skills beyond core Python functionalities. The multi-language compatibility of gTTS highlights your potential for working with international projects.</li>
+        </ul>
+
+        <h2>Interpersonal Skills</h2>
+        <ul>
+            <li>Exceptional time management</li>
+            <li>Organizational skills</li>
+            <li>Tenacious and adaptable</li>
+            <li>Creative problem-solver</li>
+        </ul>
+
+        <h2>Extracurricular Activities</h2>
+        <ul>
+            <li>NCC Cadet (National Cadet Corps)</li>
+            <li>Dancer</li>
+            <li>Yoga Enthusiast</li>
+            <li>Throwball Player</li>
+            <li>Badminton Player</li>
+            <li>Design Enthusiast</li>
+        </ul>
         <h2>Contact Me</h2>
-        <p>If you'd like to collaborate or have any questions, feel free to contact me https://www.linkedin.com/in/sj-saranya-607974257.</p>
+        <p>If you'd like to collaborate or have any questions, feel free to contact me <a href="https://www.linkedin.com/in/sj-saranya-607974257">here</a>.</p>
     </div>
     <footer class="footer">
-        <colour footer="green">
-        <p>&copy; Thankyou. All rights reserved.</p>
+        <p>&copy; Thank you. All rights reserved.</p>
     </footer>
 </body>
 </html>
-
-    
