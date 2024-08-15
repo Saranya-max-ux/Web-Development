@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <title border=2>Form</title>
+    </head>
+    <h1 align="center">Information Form</h1>
+    <style>
+        form {
+            border: 2px solid black; 
+            padding: 20px; 
+            width: 300px; 
+            margin: 0 auto; 
+        }
+    </style>
+    <body bgcolor="pink"></body>
+    <form align="center">
+        <form>
+            <label for="username">Enter your name:</label><br/>
+            <input type="text" id="username" name="UserName" placeholder=" " /><br/><br/>
+
+            <label for="Gender">Select your Gender:</label><br/>
+            <input type="radio" id="gender" name="gender" value="male"/>Male
+            <input type="radio" id="gender" name="gender" value="female"/>Female<br/><br/>
+
+            <label for="Father">Enter your Father Name:</label><br/>
+            <input type="password" id="Father" name="Father" placeholder=" " /><br/><br/>
+
+            <label for="Mother">Enter your Mother Name:</label><br/>
+            <input type="Mother" id="Mother" name="mail" placeholder=" " /><br/><br/>
+
+            <label for="Address">Enter your Address:</label><br/>
+            <input type="Address" id="rollno" name="Address" placeholder=" " /><br/><br/>
+            
+            <label for="Age ">Enter your Age :</label><br/>
+            <input type="Age " id="Age " name="Age " placeholder=" " /><br/><br/>
+
+            <label for="contact">Enter your contact:</label><br/>
+            <input type="contact" id="contact" name="contact" placeholder=" " /><br/><br/>
+        
+            <label for="email">Enter your Mail Id:</label><br/>
+            <input type="email" id="email" name="mail" placeholder=" " /><br/><br/>
+
+            <label for="password">Set your password:</label><br/>
+            <input type="password" id="password" name="mail" placeholder=" " /><br/><br/>
+            
+            <input type="submit" value="Submit" />
+        </form>
+        
+           
+
+            
+          
+         
+
+        
+        
+        
+        
