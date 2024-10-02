@@ -1,0 +1,72 @@
+#HTML Code for landing page
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fresh Fruits Shop</title>
+  <!-- Link the external CSS file -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header class="hero-section">
+    <div class="hero-content">
+      <h1>Fresh, Organic Fruits Delivered to Your Door</h1>
+      <a href="#products" class="cta-button">Shop Now</a>
+    </div>
+  </header>
+
+  <!-- Product Display Section -->
+  <section id="products" class="products-section">
+    <h2>Our Best-Selling Fruits</h2>
+    <div class="product-list">
+      <div class="product-item">
+        <img src="apple.jpg" alt="Fresh Apples">
+        <h3>Fresh Apples</h3>
+        <p>$5.99 / kg</p>
+        <a href="#" class="add-to-cart">Add to Cart</a>
+      </div>
+      <div class="product-item">
+        <img src="banana.jpg" alt="Organic Bananas">
+        <h3>Organic Bananas</h3>
+        <p>$3.49 / bunch</p>
+        <a href="#" class="add-to-cart">Add to Cart</a>
+      </div>
+      <div class="product-item">
+        <img src="orange.jpg" alt="Juicy Oranges">
+        <h3>Juicy Oranges</h3>
+        <p>$4.99 / kg</p>
+        <a href="#" class="add-to-cart">Add to Cart</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Subscription Section -->
+  <section class="subscription-section">
+    <h2>Subscribe & Save</h2>
+    <p>Get fresh fruits delivered weekly and save up to 10% on every order. Stay healthy effortlessly!</p>
+    <a href="#" class="cta-button">Subscribe Now</a>
+  </section>
+
+  <!-- Customer Reviews Section -->
+  <section class="reviews-section">
+    <h2>What Our Customers Say</h2>
+    <div class="review">
+      <p>"The freshest fruits I've ever tasted! Delivery is always prompt." – Sarah K.</p>
+    </div>
+    <div class="review">
+      <p>"I love the subscription service. It's so convenient and the quality is top-notch!" – Michael D.</p>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>100% Organic | Free Delivery on Orders Over $50 | Satisfaction Guaranteed</p>
+    <p>&copy; 2024 Fresh Fruits Shop. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
