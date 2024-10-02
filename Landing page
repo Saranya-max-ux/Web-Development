@@ -70,3 +70,138 @@
 
 </body>
 </html>
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f5f5f5;
+}
+
+h1, h2, h3, p {
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* Header Section */
+.hero-section {
+  background-image: url('fruit-basket.jpg'); /* Add your hero image URL here */
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+
+.hero-section h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.cta-button {
+  background-color: #ff6347;
+  color: white;
+  padding: 15px 30px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.cta-button:hover {
+  background-color: #ff4500;
+}
+
+/* Product Display Section */
+.products-section {
+  padding: 40px;
+  text-align: center;
+  background-color: white;
+}
+
+.product-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.product-item {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px;
+  max-width: 200px;
+  text-align: center;
+}
+
+.product-item img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+.add-to-cart {
+  background-color: #32cd32;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.add-to-cart:hover {
+  background-color: #228b22;
+}
+
+/* Subscription Section */
+.subscription-section {
+  padding: 40px;
+  background-color: #ffebcd;
+  text-align: center;
+}
+
+.subscription-section p {
+  font-size: 1.2rem;
+  margin: 20px 0;
+}
+
+/* Customer Reviews Section */
+.reviews-section {
+  padding: 40px;
+  background-color: #fafafa;
+  text-align: center;
+}
+
+.review {
+  background-color: white;
+  padding: 20px;
+  margin: 10px auto;
+  max-width: 600px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.review p {
+  font-style: italic;
+  color: #555;
+}
+
+/* Footer Section */
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+footer p {
+  margin: 5px 0;
+}
+
